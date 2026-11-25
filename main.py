@@ -1,5 +1,6 @@
 import time, requests, yfinance as yf
-import osfrom flask import Flask
+import os
+from flask import Flask
 import threading
 
 app = Flask(__name__)
